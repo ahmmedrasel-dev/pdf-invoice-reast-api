@@ -13,6 +13,14 @@ const orderSchema = new mongoose.Schema({
   amount: {
     type: Number,
     required: true
+  },
+  orderId: {
+    type: Number,
+    required: true
+  },
+  userId: {
+    type: String,
+    required: true
   }
 },
   {
